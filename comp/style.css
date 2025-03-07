@@ -1,0 +1,36 @@
+
+/* setting the background */
+body{
+    background-color: 	#484b4f;
+}
+/* styling diferent text */
+h1{
+    color : 	#86c240;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* making a custom font*/
+@font-face {
+    font-family: Sleek;
+    src: url(Sleek.otf);
+}
+p1{
+color:#007a00;
+font-family: Sleek;
+}
+.photo{
+    width:250px;
+}
+.caption {
+    color: #007a00;
+}
+/* Setting up the classes for the extra */
+.hover{
+    position:absolute;
+    width:500px;
+}
+.onhov{
+    width:500px
+}
+.hover:hover{
+    opacity: 0;
+}
